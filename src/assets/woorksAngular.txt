@@ -1,0 +1,15 @@
+Curso Angular de cero a experto.
+
+Tarea: con @Input y módulos.
+
+1_  Crear uevo componente -Agregar.
+
+2_ desde el h3 hasta la etiqueta de cierre del form.
+
+3_ mover en el componente lo que haga falta para que funcione el código correctamemnte.
+
+4_ @Input de listado chararcterts.
+
+5_ @Input de characterNew.
+
+6_ <new-component [characterNew]="characterNew">

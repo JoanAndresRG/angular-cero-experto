@@ -1,0 +1,11 @@
+<h1> {{ title }} </h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-characters [characterts]="characterts" ></app-characters>
+    </div>
+    <div class="col">
+        <app-add-new-character [characterNew]="characterNew" [characterts]="characterts" ></app-add-new-character>
+    </div>
+</div>
