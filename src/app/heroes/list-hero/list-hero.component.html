@@ -1,0 +1,22 @@
+<h1> {{ title }} </h1>
+
+<div *ngIf="heroDel; else noDelete" >
+    <h2>Erase Hero: <small> {{ heroDel }} </small> </h2>
+    <hr>
+</div>
+<ng-template #noDelete>
+    <h2>Not erase Hero</h2>
+    <hr>
+</ng-template>
+
+
+
+<button value="cl" (click)="deleteHero()">
+    Delete
+</button>
+
+<ul >
+    <li *ngFor="let hero of heroes; let i = index">
+        {{ i }} : {{ hero }}
+    </li>
+</ul>

@@ -1,0 +1,35 @@
+<h1> {{ title }} </h1>
+
+<dl>
+    <td>
+        Name:
+    </td>
+    <dd>
+        {{ name }}
+    </dd>
+    <td>
+        Age:
+    </td>
+    <dd>
+        {{ age }}
+    </dd>
+    <td>
+        Birtyear:
+    </td>
+    <dd>
+        {{ getBirthYear() }}
+    </dd>
+    <td>
+        Length Name:
+    </td>
+    <dd>
+        {{ lengthName }}
+    </dd>
+</dl>
+
+<button (click)="changeNameHero()">
+    Change Name Hero
+</button>
+<button (click)="changeAgeHero()">
+    Change Age Hero
+</button>
